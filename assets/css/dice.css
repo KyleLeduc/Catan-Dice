@@ -1,0 +1,43 @@
+html{
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100%;
+    color: darkslategrey;
+    background-color: #e8f5ff;
+}
+#rollStats {
+  color: darkslategray;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+#rollBtn {
+  font-size: 40px;
+  color: whitesmoke;
+  background-color: darkslategray;
+}
+
+#statsReset {
+    background-color: #4f372f;
+    color: whitesmoke;
+}
+
+#gameReset {
+    background-color: #2f4f2f;
+    color: whitesmoke;
+}
+
+.statsBtn {
+    background-color: #2a6969;
+    color: whitesmoke !important;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+h3 {
+    font-weight: bolder;
+}
