@@ -41,7 +41,7 @@ var rollTracker = [];
 var cardList = [];
 var gameNumber = 1
 var diceSound = new Howl({
-    src: ['./assets/sounds/DiceRollSound.mp3'],
+    src: ['/sounds/DiceRollSound.mp3'],
     preload: true,
     onend: function() {
         var pickedCard = pickCard();
@@ -57,7 +57,7 @@ var diceSound = new Howl({
 });
 
 var robberSound = new Howl({
-    src: ['./assets/sounds/robberSound.mp3'],
+    src: ['/sounds/robberSound.mp3'],
     preload: true
 });
 
