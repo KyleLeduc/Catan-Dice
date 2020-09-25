@@ -1,3 +1,5 @@
+const {Howl, Howler} = require('howler');
+
 // array of dice rolls 36
 var cardMaster = [
     "2",
